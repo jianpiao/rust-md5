@@ -1,5 +1,5 @@
 {
-  "name": "@small_zip/md5-win32-ia32-msvc",
+  "name": "@small-zip/md5-win32-ia32-msvc",
   "version": "0.0.8",
   "os": [
     "win32"
@@ -7,13 +7,14 @@
   "cpu": [
     "ia32"
   ],
-  "main": "md5.win32-ia32-msvc.node",
+  "main": "@small-zip/md5.win32-ia32-msvc.node",
   "files": [
-    "md5.win32-ia32-msvc.node"
+    "@small-zip/md5.win32-ia32-msvc.node"
   ],
   "description": "rust生成md5值",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/jianpiao/rust-md5"
 }

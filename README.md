@@ -1,4 +1,4 @@
-# @napi-rs/rust-md5
+# @small-zip/md5
 
 这是一个使用 Rust 编写的 MD5 生成工具，通过 NAPI-RS 与 Node.js 进行绑定，支持多种操作系统和架构。
 
@@ -15,12 +15,12 @@
 
 ## 安装
 ```bash
-npm install @napi-rs/rust-md5
+npm install @small-zip/md5
 ```
 
 ## 使用示例
 ```javascript
-const md5 = require('@napi-rs/rust-md5');
+const md5 = require('@small-zip/md5');
 const filePath = 'path/to/your/file';
 const hash = md5.md5(filePath);
 console.log(`MD5 hash of ${filePath}: ${hash}`);

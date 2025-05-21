@@ -1,10 +1,10 @@
 {
-  "name": "@small_zip/md5",
-  "version": "0.0.8",
+  "name": "@small-zip/md5",
+  "version": "0.0.9",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "md5",
+    "name": "@small-zip/md5",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",
@@ -34,5 +34,6 @@
     "universal": "napi universal",
     "version": "napi version"
   },
-  "description": "rust生成md5值"
+  "description": "rust生成md5值",
+  "repository": "https://github.com/jianpiao/rust-md5"
 }
