@@ -1,6 +1,6 @@
 {
   "name": "@small-zip/md5-win32-ia32-msvc",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "os": [
     "win32"
   ],
