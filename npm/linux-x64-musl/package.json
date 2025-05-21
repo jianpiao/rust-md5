@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "@small-zip/md5.linux-x64-musl.node",
+  "main": "md5.linux-x64-musl.node",
   "files": [
-    "@small-zip/md5.linux-x64-musl.node"
+    "md5.linux-x64-musl.node"
   ],
   "description": "rust生成md5值",
   "license": "MIT",
