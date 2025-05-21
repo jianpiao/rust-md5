@@ -1,0 +1,22 @@
+{
+  "name": "@napi-rs/rust-md5-linux-x64-gnu",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "rust-md5.linux-x64-gnu.node",
+  "files": [
+    "rust-md5.linux-x64-gnu.node"
+  ],
+  "description": "rust生成md5值",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "glibc"
+  ]
+}
