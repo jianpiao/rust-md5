@@ -1,5 +1,5 @@
 {
-  "name": "@napi-rs/rust-md5-win32-x64-msvc",
+  "name": "@napi-rs/md5-win32-x64-msvc",
   "version": "0.0.4",
   "os": [
     "win32"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "rust-md5.win32-x64-msvc.node",
+  "main": "md5.win32-x64-msvc.node",
   "files": [
-    "rust-md5.win32-x64-msvc.node"
+    "md5.win32-x64-msvc.node"
   ],
   "description": "rust生成md5值",
   "license": "MIT",

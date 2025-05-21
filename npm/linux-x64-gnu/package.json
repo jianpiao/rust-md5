@@ -1,5 +1,5 @@
 {
-  "name": "@napi-rs/rust-md5-linux-x64-gnu",
+  "name": "@napi-rs/md5-linux-x64-gnu",
   "version": "0.0.4",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "rust-md5.linux-x64-gnu.node",
+  "main": "md5.linux-x64-gnu.node",
   "files": [
-    "rust-md5.linux-x64-gnu.node"
+    "md5.linux-x64-gnu.node"
   ],
   "description": "rust生成md5值",
   "license": "MIT",

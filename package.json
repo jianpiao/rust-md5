@@ -1,10 +1,10 @@
 {
-  "name": "@napi-rs/rust-md5",
-  "version": "0.0.4",
+  "name": "@napi-rs/md5",
+  "version": "0.0.5",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "rust-md5",
+    "name": "md5",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",

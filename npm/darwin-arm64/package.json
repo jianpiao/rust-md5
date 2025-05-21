@@ -1,5 +1,5 @@
 {
-  "name": "@napi-rs/rust-md5-darwin-arm64",
+  "name": "@napi-rs/md5-darwin-arm64",
   "version": "0.0.4",
   "os": [
     "darwin"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "rust-md5.darwin-arm64.node",
+  "main": "md5.darwin-arm64.node",
   "files": [
-    "rust-md5.darwin-arm64.node"
+    "md5.darwin-arm64.node"
   ],
   "description": "rust生成md5值",
   "license": "MIT",
