@@ -1,6 +1,6 @@
 {
-  "name": "@napi-rs/md5-darwin-x64",
-  "version": "0.0.4",
+  "name": "@small_zip/md5-darwin-x64",
+  "version": "0.0.6",
   "os": [
     "darwin"
   ],

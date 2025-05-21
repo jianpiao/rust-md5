@@ -54,15 +54,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@napi-rs/rust-md5@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@napi-rs/rust-md5@workspace:."
-  dependencies:
-    "@napi-rs/cli": "npm:^2.18.4"
-    ava: "npm:^6.0.1"
-  languageName: unknown
-  linkType: soft
-
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -119,6 +110,15 @@ __metadata:
   checksum: 10c0/69ee906f3125fb2c6bb6ec5cdd84e8827d93b49b3892bce8b62267116cc7e197b5cccf20c160a1d32c26014ecd14470a72a5e3ee37a58f1d6dadc0db1ccf3894
   languageName: node
   linkType: hard
+
+"@small_zip/md5@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@small_zip/md5@workspace:."
+  dependencies:
+    "@napi-rs/cli": "npm:^2.18.4"
+    ava: "npm:^6.0.1"
+  languageName: unknown
+  linkType: soft
 
 "@types/estree@npm:^1.0.0":
   version: 1.0.7
