@@ -67,7 +67,7 @@ switch (platform) {
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./md5.win32-x64-msvc.node')
+            nativeBinding = require(join(__dirname, 'md5.win32-x64-msvc.node'))
           } else {
             nativeBinding = require('@small-zip/md5-win32-x64-msvc')
           }
@@ -81,7 +81,7 @@ switch (platform) {
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./md5.win32-ia32-msvc.node')
+            nativeBinding = require( join(__dirname, 'md5.win32-ia32-msvc.node'))
           } else {
             nativeBinding = require('@small-zip/md5-win32-ia32-msvc')
           }
@@ -95,7 +95,7 @@ switch (platform) {
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./md5.win32-arm64-msvc.node')
+            nativeBinding = require(join(__dirname, 'md5.win32-arm64-msvc.node'))
           } else {
             nativeBinding = require('@small-zip/md5-win32-arm64-msvc')
           }
@@ -111,7 +111,7 @@ switch (platform) {
     localFileExisted = existsSync(join(__dirname, 'md5.darwin-universal.node'))
     try {
       if (localFileExisted) {
-        nativeBinding = require('./md5.darwin-universal.node')
+        nativeBinding = require(join(__dirname, 'md5.darwin-universal.node'))
       } else {
         nativeBinding = require('@small-zip/md5-darwin-universal')
       }
@@ -122,7 +122,7 @@ switch (platform) {
         localFileExisted = existsSync(join(__dirname, 'md5.darwin-x64.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./md5.darwin-x64.node')
+            nativeBinding = require(join(__dirname, 'md5.darwin-x64.node'))
           } else {
             nativeBinding = require('@small-zip/md5-darwin-x64')
           }
@@ -136,7 +136,7 @@ switch (platform) {
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./md5.darwin-arm64.node')
+            nativeBinding = require(join(__dirname, 'md5.darwin-arm64.node'))
           } else {
             nativeBinding = require('@small-zip/md5-darwin-arm64')
           }
@@ -172,7 +172,7 @@ switch (platform) {
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./md5.linux-x64-musl.node')
+              nativeBinding = require(join(__dirname, 'md5.linux-x64-musl.node'))
             } else {
               nativeBinding = require('@small-zip/md5-linux-x64-musl')
             }
@@ -185,7 +185,7 @@ switch (platform) {
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./md5.linux-x64-gnu.node')
+              nativeBinding = require(join(__dirname, 'md5.linux-x64-gnu.node'))
             } else {
               nativeBinding = require('@small-zip/md5-linux-x64-gnu')
             }
@@ -201,7 +201,7 @@ switch (platform) {
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./md5.linux-arm64-musl.node')
+              nativeBinding = require(join(__dirname, 'md5.linux-arm64-musl.node'))
             } else {
               nativeBinding = require('@small-zip/md5-linux-arm64-musl')
             }
