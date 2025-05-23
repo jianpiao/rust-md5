@@ -116,7 +116,7 @@ switch (platform) {
         nativeBinding = require('@small-zip/md5-darwin-universal')
       }
       break
-    } catch { }
+    } catch {}
     switch (arch) {
       case 'x64':
         localFileExisted = existsSync(join(__dirname, 'md5.darwin-x64.node'))
@@ -134,7 +134,6 @@ switch (platform) {
         localFileExisted = existsSync(
           join(__dirname, 'md5.darwin-arm64.node')
         )
-        console.log(`是否存在本地，localFileExisted: ${localFileExisted}，当前执行的地址为：${process.cwd()}`)
         try {
           if (localFileExisted) {
             nativeBinding = require('./md5.darwin-arm64.node')
@@ -311,7 +310,6 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { sum, md5 } = nativeBinding
+const { md5 } = nativeBinding
 
-module.exports.sum = sum
 module.exports.md5 = md5

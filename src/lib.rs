@@ -3,11 +3,6 @@
 #[macro_use]
 extern crate napi_derive;
 
-#[napi]
-pub fn sum(a: i32, b: i32) -> i32 {
-  a + b
-}
-
 use std::fs::File;
 use std::io::{BufReader, Read};
 use md5::{Md5, Digest};
