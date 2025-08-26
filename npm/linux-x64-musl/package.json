@@ -1,6 +1,6 @@
 {
   "name": "@small-zip/md5-linux-x64-musl",
-  "version": "0.0.16",
+  "version": "0.0.18",
   "os": [
     "linux"
   ],
